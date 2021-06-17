@@ -1,0 +1,502 @@
+/* font-family: 'Bebas Neue', cursive;
+font-family: 'Alfa Slab One', cursive; 
+font-family: 'Montserrat', sans-serif;*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+/* NAV BAR DESKTOP VERSION */
+
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 16px;
+    font-family: 'Bebas Neue', cursive;
+    color: #3d2514 ;
+    margin-right: 30px;
+    letter-spacing: 3px;
+}
+
+/* FIRST PAGE */ 
+.part_one {
+    margin-top: 68px;
+}
+.part_one h3 {
+    color: #3d2514;
+    font-size: 24px;
+    border: 2px dashed #3d2514;
+    padding: 10px 15px;
+    display: inline-block;
+    font-family: 'Bebas Neue', cursive;    
+}
+
+
+.part_one h1 {
+    font-size: 126px;
+    text-shadow: 4px 4px 0px #ffe9ba;
+    font-family: 'Alfa Slab One', cursive; 
+    color: #3d2514;
+}
+
+
+
+.part_one h2 {
+    color: #3d2514;
+    font-size: 90px;
+    text-transform: uppercase;
+    font-family: 'Alfa Slab One', cursive; 
+    text-shadow: 4px 4px 0px #ffe9ba;
+}
+
+.part_two {
+    position: relative;
+}
+.part_two img{
+
+}
+.red-sticker {
+    background-color: #bf2222;
+    width: 150px;
+    height: 150px;
+    border-radius: 120px;
+    position: absolute;
+    /* top: 213px; */
+    bottom: 8%;
+    right: 78%;
+    transform: translate( 55%, 23%);
+}
+.red-stickerOne {
+    border: 1px dashed #fff;
+    border-radius: 50%;
+    margin-top: 9px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.red-stickerOne h1 {
+    color: #fff !important;
+    font-size: 70px;
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: none !important;
+    display: inline-block;
+    margin: 12px 0 0 18px;
+}
+
+
+.red-stickerOne span {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    color: #fff;
+}
+
+.red-stickerOne h2 {
+    font-size: 33px;
+    font-family: 'Bebas Neue', cursive;
+    color: #fff;
+    letter-spacing: 3px;
+    padding-left: 32px;
+    margin: -3px 0px 0px 6px;
+}
+
+
+/* SECOND PAGE */ 
+
+.Second {
+    
+}
+
+.part_three img {
+  
+}
+.part_three {
+    position: relative;
+}
+.part_threefive {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+}
+.part_threefive h3 {
+    font-size: 24px;
+}
+.part_threefive h1 {
+    font-size: 38px;
+}
+.part_four {
+    text-align: center;
+    position: relative;
+}
+.part_four img:first-child {
+    padding-bottom: 36px;
+}
+
+.part_four img:nth-child(2) {
+    width: 90%;
+}
+
+.part_fourfive {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    text-align: left
+}
+
+.part_fourfive h3 {
+    font-size: 24px;
+}
+
+.part_fourfive h1 {
+    font-size: 38px;
+}
+
+.part_4five {
+    position: absolute;
+    
+    color: white;
+    text-align: left;
+    bottom: 26%;
+    left: 5%;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.part_4five h3 {
+    font-size: 24px;
+}
+
+.part_4five h1 {
+    font-size: 38px;
+}
+
+.part_five {
+    text-align: center;
+}
+
+.part_five h3 {
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+    color: #3d2514;
+    padding: 8px 14px;
+    border: 1px solid #ffc045;
+    background-color: #ffc045;
+    display: inline-block;
+    margin-bottom: 50px;
+
+}
+.part_five h3:hover {
+    color: #ffc045;
+    background-color:  #584130;
+}
+.part_five h1 {
+    font-size: 50px;
+    color: #3d2514;
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: regular;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.part_five p {
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    color: #3d2514;
+    margin-top: 15px;
+}
+
+.part_six {
+    
+}
+.part_six img {
+    margin: 35px 10px;
+}
+.part_six h1 {
+    font-size: 38px;
+    font-family: 'Bebas Neue', cursive;
+    color: #3d2514;
+}
+
+.part_six p {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color: #3d2514;
+}
+
+.part_six a {
+    
+}
+
+.part_six .btn_cus {
+    margin: 10px 0px;
+    padding: 10px 20px;
+    font-family: 'Alfa Slab One', cursive;
+    background-color: #bf2222;
+    color: #fff;
+    letter-spacing: 1px;
+
+} 
+
+.part_six .btn_cus:hover {
+    background-color: #fff;
+    color: #bf2222;
+    border: 1px solid rgb(167, 151, 151);
+}
+
+.big{
+    margin: -68px 0 !important;
+}
+
+.Third_page {
+
+}
+
+.Discover {
+    box-shadow: 5px 10px 20px 2px #888888;
+
+}
+
+.part_seven {
+    width: 85%;
+    margin-top: 30px;
+}
+
+.part_seven h3 {
+    font-size: 30px ;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    color: #3d2514;
+    letter-spacing: 2px;
+    margin-left: 18px;
+    margin-top: 15px;
+}
+
+.part_seven h1 {
+    font-size: 40px;
+    color: #3d2514;
+    font-weight: regular;
+    font-family: 'Alfa Slab One', cursive;
+    text-transform: uppercase;
+    margin-left: 18px;
+}
+
+.part_seven p {
+    font-size: 20px;
+    color: #3d2514;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 18px;
+    width: 100%;
+}
+
+.part_eight { 
+    text-align: end;
+    width: 98%;
+    margin: 48px 10px 0 0;
+}
+
+.part_eight img {
+    width: 95%;
+}
+
+.Reservation {
+    background-image: url(../images/burger_twenty.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pictures{
+
+}
+
+.part_nine {
+
+}
+
+.part_nine h3 {
+    font-size: 30px;
+    color: #3d2514;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 85px;
+    padding: 30px 20px;
+}
+
+.part_nine h1 {
+    font-size: 50px;
+    color: #3d2514;
+    font-family: 'Alfa Slab One', cursive;
+    text-align: center;
+    margin: 70px 44px;
+}
+
+.part_ten {
+    margin: auto;
+    margin-bottom: 345px;
+}
+
+.form-control {
+    width:94%;
+    padding: 6px;
+
+}
+.form-control::placeholder {
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    color: #3d3d3d;
+}
+.btn-custom {
+    padding: 10px 115px;
+    background-color: #bf2222;
+    text-transform: uppercase;
+    font-size: 20px ;
+    font-family: 'Alfa Slab One', cursive;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.btn-custom:hover {
+     background-color: #fff;
+     color: #bf2222;
+     border: 1px solid rgb(173, 173, 173);
+}
+
+.last_part {
+    background-image: url(../images/Burger_eleven.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    /* position: relative; */
+}
+.position {
+
+}
+.last_part img {
+    /* position: absolute;
+    top: 110px;
+    left: 50px; */
+    margin-left: 30px;
+}
+
+.last_part p {
+    /* position: absolute;
+    top: 223px;
+    left: 50px; */
+    width: 66%;
+    margin-left: 38px;
+}
+
+.last_part h4 {
+    /* position: absolute;
+    bottom: 20px;
+    left: 30px; */
+    font-size: 17px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 18px;
+    font-family: 'Bebas Neue', cursive;
+    /* margin-right: 29px; */
+    margin-left: 38px;
+}
+
+.bottom_one {
+    /* position: absolute;
+    top: 50%;
+    right: 10%; */
+    
+}
+
+.bottom_one ul {
+    text-decoration: none;
+    padding-top: 200px;
+    padding-bottom: 88px;
+    
+}
+
+
+.bottom_one ul a  {
+    text-decoration: none;
+}
+
+.bottom_one ul a li {
+    list-style: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+
+
+}
+
+.bottom_one ul a li i {
+    padding-right: 18px;
+}
+
+.bottom_two {
+    
+
+} 
+
+.bottom_two ul {
+    text-decoration: none;
+    
+    display: flex;
+    
+    
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+    
+}
+
+.bottom_two ul a  {
+   text-decoration: none;
+   color: #fff;
+}
+
+.bottom_two ul a li {
+    list-style: none;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.bottom_two ul a li i {
+    /* padding-left: 34px; */
+    
+}
+/* .bottom_two ul a li i:hover {
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50px;
+} */
+
+.owl-dots .owl-dot span {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background-color: #dcdcdc;
+    
+    border-radius: 50px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.owl-dots {
+    margin-left: 15px;
+}
+
+.owl-dots .active span {
+    background-color: #ffc045;
+}
